@@ -1,0 +1,213 @@
+body {
+    margin: 10px;
+    padding: 0px;
+    color: #000;
+    background-color: #fff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: small;
+    line-height: 1.4;
+}
+
+header {
+    background-color: black;
+    border: solid black 1px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    padding-left: 10px;
+    color: white;
+}
+
+nav {
+    background-color: lightslategrey;
+    border: solid black 1px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+
+}
+
+footer {
+    background-color: grey;
+    border: solid black 1px;
+}
+
+.asideLeft {
+    float: left;
+    /* width: 240px; */
+    width: 23%;
+    margin: auto;
+    border: solid black 1px;
+    border-radius: 5px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    height: 460px;
+    background-color: #000;
+}
+
+section {
+    /*padding: 10px 0;*/
+    /* width: 893px; */
+    width: 56%;
+    float: left;
+    border: solid white 1px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    height: 460px;
+    background-color: lightslategrey;
+    color: black;
+}
+
+.asideRight {
+    float: left;
+    /* width: 187px; */
+    width: 20.3%;
+    height: 460;
+    /* padding: 2px 0; */
+    text-align: left;
+    border: solid black 1px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.asideRight>h2 {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer {
+    border-radius: 5px;
+    /* padding: 10px 0; */
+    position: relative;
+    /* this gives IE6 hasLayout to properly clear */
+    clear: both;
+    /* this clear property forces the .container to understand where the columns end and contain them */
+    display: block;
+    background-color: #000;
+    color: white;
+    text-align: center;
+
+}
+
+
+img {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid white 1px;
+    border-radius: 5px;
+}
+
+.not {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inicio {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid black 1px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+
+.objetivo {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid black 1px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+
+.intereses {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid black 1px;
+    border-radius: 5px;
+    /*margin-bottom: px;*/
+}
+
+.lista1>li {
+    display: inline;
+    padding-left: 0px;
+    padding-right: 5px;
+}
+
+.lista1 {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lista2 {
+    color: white
+}
+
+.objetivo>h3 {
+    background-color: #000;
+    color: white;
+    border-radius: 5px;
+}
+
+.inicio>h3 {
+    background-color: #000;
+    color: white;
+    border-radius: 5px;
+}
+
+.intereses>h3 {
+    background-color: #000;
+    color: white;
+    border-radius: 5px;
+}
+
+.hg10 {
+    background-color: lightslategrey;
+    border-radius: 10px;
+    padding-left: 0px;
+}
+
+.hg20 {
+    padding-top: 15px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.lista3 {
+    background-color: #000;
+    color: white;
+    border: solid black 1px;
+    border-radius: 5px;
+}
+
+.hg {
+    background-color: #000;
+    border-radius: 5px;
+}
+
+.nome {
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row p {
+    background-color: black;
+    color: white;
+    margin-left: 45px;
+    margin-right: 45px;
+    border-radius: 5px;
+}
